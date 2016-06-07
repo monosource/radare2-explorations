@@ -67,7 +67,7 @@ Some edits are much better when performed in a visual context.
 
 Let's switch to visual mode.
 
-![](editing_visual.png)
+![](img/editing_visual.png)
 
 You can toggle the editing `cursor` using the `c` key. You can move the cursor around using the arrow keys or `hjkl`. It is recommended that you use the `hjkl` keys for reasons which will become obvious.
 
@@ -75,9 +75,9 @@ When turning the cursor on, you will notice that two vertical white borders appe
 
 Use `i` to insert hex values (when the cursor is in the hex zone) or plaintext.
 
-![](editing_visual_insert.png)
+![](img/editing_visual_insert.png)
 
-![](editing_visual_double_deadbeef.png)
+![](img/editing_visual_double_deadbeef.png)
 
 ### Yanking and pasting
 
@@ -85,9 +85,9 @@ Yanking (or, more commonly known as copying) and pasting hex/text can be done wi
 
 You can select entire sequences of bytes by holding down <Shift> and moving the cursor via `hjkl` (arrow keys will most likely not work).
 
-![](editing_visual_yank.png)
+![](img/editing_visual_yank.png)
 
-![](editing_visual_paste.png)
+![](img/editing_visual_paste.png)
 
 ### Visual assembly
 
@@ -99,11 +99,11 @@ Let's set everything back to `00` by filling the entire first block with a "cycl
 
 Let's switch to disassembly view.
 
-![](editing_visual_disas.png)
+![](img/editing_visual_disas.png)
 
 Another useful and powerful editing feature is the visual assembly editor. You can switch to it via `A`.
 
-![](editing_visual_assembly.png)
+![](img/editing_visual_assembly.png)
 
 Notice how everything updates in real time.
 

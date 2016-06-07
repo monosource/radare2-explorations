@@ -9,7 +9,7 @@ $ r2 -A /bin/ls
 
 We can enter visual mode with the command `V`.
 
-![](visual_nav_hexmode.png)
+![](img/visual_nav_hexmode.png)
 
 You will be presented with a hex view of the binary. You can cycle between view modes using `p` and `P`. You can identify each mode by reading the prompt, which shows you which command is being run to generate the output.
 
@@ -25,7 +25,7 @@ You will be presented with a hex view of the binary. You can cycle between view 
 
 For now, we are going to focus on the disassembly view (by pressing `p` once).
 
-![](visual_nav_disas.png)
+![](img/visual_nav_disas.png)
 
 ## Getting help
 
@@ -53,6 +53,6 @@ You can get a list of cross-references (xrefs, for short) from/to data using `x`
 
 For example, pressing `X` in main will yield
 
-![](visual_nav_xref.png)
+![](img/visual_nav_xref.png)
 
 Again, using the numbers `1-9`, you can quickly go to any of these references.
