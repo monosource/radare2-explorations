@@ -161,3 +161,31 @@ rflags 0x0000000000000246
 ```
 
 This can be very useful when you have a breakpoint within a loop which changes a register or an area of memory. You can keep hitting the breakpoint and see how the register or memory region gets updated.
+
+## Debugging in custom environments
+
+Most cases require you to feed the binary some custom input, or have some enviroment variable set up accordingly. For those cases, it is best to wrap the program using `rarun2`, as follows:
+
+```
+r2 -d rarun2 program=./<program_name> arg0=foo stdin=./<some_file> setenv=ENV_VAR=<value>
+```
+
+You can see a full list of options for rarun2 in its corresponding `man` page.
+
+Of course, if the list becomes too large, you can organize them into a `.rr2` file to feed to rarun2, as follows:
+
+```
+#!/usr/bin/rarun2
+program=./<program_name>
+arg0=foo
+stdin=./<some_file>
+setenv=ENV_VAR=<value>
+```
+
+and then just run
+
+```
+r2 -d rarun2 script.rr2
+```
+
+Note that when first starting radare2 in debug mode, you will actually be debugging rarun2! You need to first continue execution (`dc`) which will leave you in the loader for the program itself.
