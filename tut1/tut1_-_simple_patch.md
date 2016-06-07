@@ -164,7 +164,7 @@ Just before **main** starts, we can see something similar to a function epilogue
 
 ![](tut1_ghost_func.png)
 
-Somehow, radare2 didn't manage to auto-analyze this for us. We're going to have to do this manually. Fortunately, this is pretty easy to do in visual mode.
+Somehow, radare2 didn't manage to auto-analyze this for us. Explanation: since the function is not being called anywhere, it makes sense for radare to save some computing resources and not auto-analyze it for us. We're going to have to do this manually. Fortunately, this is pretty easy to do in visual mode.
 
 > **Reminder: ** Radare's visual mode has a completely different set of key commands. These can be viewed by pressing **?**. "Regular" commands can still be entered by pressing "**:**"
 

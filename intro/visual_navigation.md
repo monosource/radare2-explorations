@@ -41,7 +41,7 @@ You can go to any offset with `o`. You can undo any seek at any time via the `u`
 
 ## Marks
 
-You can set marks at any point using `m` followed by any key (case-sensitive). Be aware that marks are not highlighted in any way in contrast to flags.
+You can set marks at any point using `m` followed by any key (case-sensitive). To go to a mark, press `'` followed by the mark key. Be aware that marks are not highlighted in any way in contrast to flags.
 
 ## Fuzzy flag searcher
 
