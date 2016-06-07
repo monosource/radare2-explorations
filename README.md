@@ -1,4 +1,4 @@
-My Awesome Book
-=======
+README
+==
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+This book aims to cover the practical aspects of using the extensive reverse engineering framework, [radare2](http://rada.re/r/).
