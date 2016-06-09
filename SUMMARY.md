@@ -22,3 +22,4 @@
    * [r2pipe](advanced/r2pipe.md)
    * [ESIL Reloaded](advanced/esil.md)
    * [ROP](advanced/rop.md)
+* [Closing Remarks](closing.md)
