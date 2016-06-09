@@ -15,7 +15,7 @@
    * [Simple Patch](tut1/tut1_-_simple_patch.md)
    * [Memory Manipulation](tut2/tut2_-_mem_manip.md)
    * [ESIL](tut3/tut3_-_esil.md)
-   * [Exploitation](tut4/tut4_-_exploit.md)
+   * [Simple Exploit](tut4/tut4_-_exploit.md)
 * [Advanced Topics](advanced.md)
    * [Remote Debugging](advanced/remote.md)
    * [Packages](advanced/packages.md)
