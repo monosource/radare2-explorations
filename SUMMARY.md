@@ -17,7 +17,6 @@
    * [ESIL](tut3/tut3_-_esil.md)
    * [Simple Exploit](tut4/tut4_-_exploit.md)
 * [Advanced Topics](advanced.md)
-   * [Remote Debugging](advanced/remote.md)
    * [Packages](advanced/packages.md)
    * [r2pipe](advanced/r2pipe.md)
    * [ESIL Reloaded](advanced/esil.md)
