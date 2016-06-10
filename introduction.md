@@ -16,7 +16,7 @@ Please note that even though **radare2** is capable of glorious and esoteric thi
 * Anti-debugging mitigation.
 * How to solve problems.
 
-Ultimately, it is up to you how you use radare2 and integrate it in your workflow. Use it for just for binary diffing, numerical conversions, DNA sequencing, editing text files...
+Ultimately, it is up to you how you use radare2 and integrate it in your workflow. Use it for binary diffing, numerical conversions, DNA sequencing, editing text files...
 
 # Why radare2
 
