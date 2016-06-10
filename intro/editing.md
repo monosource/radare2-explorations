@@ -83,7 +83,7 @@ Use `i` to insert hex values (when the cursor is in the hex zone) or plaintext.
 
 Yanking (or, more commonly known as copying) and pasting hex/text can be done with the `y` and `Y` keys in visual mode. This is where the arrow keys/hjkl distinction plays a role.
 
-You can select entire sequences of bytes by holding down <Shift> and moving the cursor via `hjkl` (arrow keys will most likely not work).
+You can select entire sequences of bytes by holding down `<Shift>` and moving the cursor via `hjkl` (arrow keys will most likely not work).
 
 ![](img/editing_visual_yank.png)
 
