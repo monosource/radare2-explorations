@@ -7,6 +7,10 @@ Please note that I am by no means more than a mere beginner and amateur. I have 
 
 This "book"s philosophy is one of "learn by doing", with occasional pause for reflection, hints and explanations. Hence, it will be organized in a series of easy-to-follow tutorials which should cover all the basic blocks required for one to do whatever he needs.
 
+# How to read this book
+
+I suggest you go ahead and dive right into the [tutorials](tutorials.md) section and if you need clarification on certain topics, check the appropriate section either in this book or the official radare2 book. The tutorials are mostly self-contained and are filled with reminders on how to do various things in radare2. This book was actually written starting with the tutorials and then adding the ~boring~ introductory elements afterwards.
+
 # Prerequisites
 
 Please note that even though **radare2** is capable of glorious and esoteric things, at the end of the day it is just a tool in your reverse engineering kit. It will **not** show you or teach you:
