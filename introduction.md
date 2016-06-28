@@ -9,7 +9,7 @@ This "book"s philosophy is one of "learn by doing", with occasional pause for re
 
 # How to read this book
 
-I suggest you go ahead and dive right into the [tutorials](tutorials.md) section and if you need clarification on certain topics, check the appropriate section either in this book or the official radare2 book. The tutorials are mostly self-contained and are filled with reminders on how to do various things in radare2. This book was actually written starting with the tutorials and then adding the ~boring~ introductory elements afterwards.
+I suggest you go ahead and dive right into the [tutorials](tutorials.md) section and if you need clarification on certain topics, check the appropriate section either in this book or the official radare2 book. The tutorials are mostly self-contained and are filled with reminders on how to do various things in radare2. This book was actually written starting with the tutorials and then adding the ~~boring~~ introductory elements afterwards.
 
 # Prerequisites
 
