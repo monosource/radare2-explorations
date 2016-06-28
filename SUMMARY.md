@@ -9,6 +9,7 @@
    * [Debugging](intro/debugging.md)
    * [Visual Debugging](intro/visual_debugging.md)
    * [Editing](intro/editing.md)
+   * [Visual Graphs](intro/visual_graphs.md)
    * [Project Management](intro/projects.md)
    * [Configuration](intro/configuration.md)
 * [Tutorials](tutorials.md)
