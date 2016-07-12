@@ -71,7 +71,7 @@ Let's switch to visual mode.
 
 You can toggle the editing `cursor` using the `c` key. You can move the cursor around using the arrow keys or `hjkl`. It is recommended that you use the `hjkl` keys for reasons which will become obvious.
 
-When turning the cursor on, you will notice that two vertical white borders appear surrounding the hex area. You can use `<TAB>` to toggle between editing this area and the plaintext one on the right.
+When turning the cursor on, you will notice that two white vertical borders appear surrounding the hex area. You can use `<TAB>` to toggle between editing this area and the plaintext one on the right.
 
 Use `i` to insert hex values (when the cursor is in the hex zone) or plaintext.
 

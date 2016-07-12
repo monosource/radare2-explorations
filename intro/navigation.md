@@ -40,7 +40,7 @@ Flags are useful because you can name them, navigate to them, iterate over them,
 ```
 
 
-You can list all the flags with the command `f`. You can see that flags are generally preceded by a prefix, such as `str.`, `sym.`, `sub.`, `fcn.` etc. These are very useful since you can grep for them and find something of interest.
+You can list all the flags with the command `f`. Flags generally have a prefix in their name, such as `str.`, `sym.`, `sub.`, `fcn.` etc. These are very useful since you can grep for them and find something of interest.
 
 ## Seeking
 
@@ -68,9 +68,8 @@ hits: 1
 [0x00418cbc]> 
 ```
 
-Notice that radare2 automatically flags each "hit" of a search for you to seek at afterwards.
-
-This is also useful for iteration via `@@` and regex. You can execute a command for every hit of a search. Such as printing, xoring with a value, or even more complex operations
+Notice that radare2 automatically flags each "hit" of a search for you to use.
+This is also useful for iteration via `@@` and regex. You can execute a command for every result of a search, such as printing, xoring with a value, or even more complex operations
 
 ```
 [0x00418cbc]> /a jmp rax

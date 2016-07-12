@@ -45,6 +45,6 @@ We can skip the painful steps the loader has to make, first by changing the seek
 
 ![](img/visual_dbg_mem_reg.png)
 
-We can change the print mode to show the stack and registers along the disassembly view (an extra `p` from the normal disassembly view). Stepping into (`s`) or stepping over (`S`) will update `rip`, the registers and the stack. Registers will get colored if they are changed after an instruction.
+We can change the print mode to show the stack and registers along with the disassembly view (an extra `p` from the normal disassembly view). Stepping into (`s`) or stepping over (`S`) will update `rip`, the registers and the stack. Registers will get colored if they are changed after an instruction.
 
 You can still access all the debugger commands through the command menu (`:`) and also have visual feedback. You can seek and investigate functions, set breakpoints and so on. To return the seek to the program counter at any time, press `.`.

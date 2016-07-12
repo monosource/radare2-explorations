@@ -95,7 +95,7 @@ It seems that all this program does is print the text message we saw earlier. Ho
 
 But how do we find which function to call?
 
-> **Reminder: ** When radare2 analyzes a file, it will add 'flags' to any relevant data/functions. You can view flags as labels which can later be used in radare commands and expressions (you can seek to flags, filter for flags, apply operations and so on.
+> **Reminder: ** When radare2 analyzes a file, it will add 'flags' to any relevant data/functions. You can view flags as labels which can later be used in radare commands and expressions (you can seek to flags, filter for flags, apply operations and so on).
 
 Let's list some of the flags which radare2 automatically added for us.
 

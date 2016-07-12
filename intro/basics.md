@@ -1,6 +1,6 @@
 # The Basics
 
-In this tutorial, we will simply get introduced to radare2 and explore the basics of its commands. This tutorial is not centered on any particular aspect of radare2, but will provide you with some vital background needed to more efficiently wrap your head around the overall structure and design of the framework.
+In this section, we will simply get introduced to radare2 and explore the basics of its commands. It is not centered on any particular aspect of radare2, but will provide you with some vital background needed to more efficiently wrap your head around the overall structure and design of the framework.
 
 ## Resources
 
@@ -24,7 +24,7 @@ Here is a (non-exhaustive) list of what r2 can be:
 * Assembler
 * Debugger
 * Hex editor
-* Exploit tool
+* Exploit development tool
 * Emulator
 * Binary diffing tool
 * Shellcode compiler
@@ -53,7 +53,7 @@ r2 /bin/ls
 [0x004048c5]>
 ```
 
-Notice that the prompt changes. We are now exploring the memory map of **/bin/ls**. The value between parentheses is the current address position within the current file. Unless configured otherwise, this is the entry point of the binary.
+Notice that the prompt changes. We are now exploring the memory map of **/bin/ls**. The value between parentheses is the current address position within the current file. This is the entry point of the binary (unless radare is configured differently).
 
 ## Help!
 
@@ -117,7 +117,7 @@ This is understandably a daunting sight to behold, and it will not get any easie
 
 ## Looking through commands
 
-While learning radare2, you will iteratively consult the built in documentation to find commands which help you accomplish your specific needs, by appending a `?` after each combination of interest. For example:
+While learning radare2, you will iteratively consult the built-in documentation to find commands which help you accomplish your specific needs, by appending a `?` after each combination of interest. For example:
 
 ```
 [0x004048c5]> a?
@@ -185,13 +185,13 @@ While this "forest" of a documentation does a decent job of what each and every 
 Usage: [.][times][cmd][~grep][@[@iter]addr!size][|>pipe] ;
 ```
 
-This is the command format for radare2. Although this looks cryptic, only the command itself is mandatory and it will operate using some default values as we will see further on.
+This is the command format for radare2. Although this looks cryptic, only the command itself is mandatory, and it will operate using some default values as we will see further on.
 
 If you have some experience working with \*nix shell, Vim, sed, awk, then learning radare2's commands will be *slightly* more intuitive.
 
 ### Current seek
 
-In general (i.e. default behaviour), each command has a point of reference, which is usually the current position in memory, indicated by the prompt. Any printing, writing or analysis commands will be performed at the current point. For example:
+In general (i.e. default behavior), each command has a point of reference, which is usually the current position in memory, indicated by the prompt. Any printing, writing or analysis commands will be performed at the current offset (address) in the file. For example:
 
 ```
 [0x004048c5]> pd 1
@@ -436,7 +436,7 @@ rdi
 
 ### |Pipes and >redirection
 
-Commands can be piped through tr, awk, sed, cut, grep and so on.
+Commands can be piped over to external processing tools such as tr, awk, sed, cut, grep and so on.
 
 ```
 [0x004048c5]> pd 10 | tr -s ' ' | cut -d ' ' -f 4 | tail -n +2
