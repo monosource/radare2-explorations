@@ -160,7 +160,7 @@ This is where ESIL comes in quite handy. Althought this is a didactic exercise, 
 
 The ESIL VM can be used like a debugger. You can step and continue as usual, but you can also continue until a given ESIL expression is true.
 
-Let's continue execution until the value of `eax` is greater than its initial one.
+Let's continue emulation until the value of `eax` is greater than its initial one.
 
 ```
 [0x08048466]> "aecue eax,0x1234,>"
