@@ -1,6 +1,6 @@
 # Getting Information
 
-When before going deep into analyzing a file with radare2, you first need some key pieces of information.
+Before going deep into analyzing a file with radare2, you first need some key pieces of information.
 
 ## Beauty is in the `i` of the beholder
 
