@@ -160,8 +160,9 @@ If you remember from our previous tutorial where we used backticks (`) like in b
 Again, we'll construct it step by step.
 We're trying to get the following:
 ```
-[0x08048660]> wox <my_pattern> @ eax!32
+[0x08048660]> woD xor <my_pattern> @ eax!32
 ```
+wox should only use in 1, 2, 4 or 8 byte. If you want xor more than 8 bytes, can use woD instead. 
 This would XOR **my_pattern** from eax to eax+32. We saw earlier that we can get a continuous hex string via the following:
 ```
 [0x08048660]> p8 32 @ edi
@@ -174,7 +175,7 @@ Now we can surround the expression via backticks (or just copy the value directl
 [0x08048660]> ps @ eax
 gb~|mMT\x0b6\x1a?*{/$%i)\x14\x1a[\x0c\x0dZ\x0b*
 J\x19\xe9\xb3\xda
-[0x08048660]> wox `p8 32 @ edi` @ eax!32
+[0x08048660]> woD xor `p8 32 @ edi` @ eax!32
 [0x08048660]> ps @ eax
 MONO[th4t_wa5~pr3tty=ea5y_r1gh7]
 ```
